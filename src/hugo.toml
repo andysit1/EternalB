@@ -14,7 +14,7 @@ googleAnalytics = "G-xxxxxxxxx"
 description = "Personal Website of Andy"
 
 # Appearance settings
-theme = 'typo'
+theme = 'dark'
 colorPalette = 'default'
 hideHeader = false
 

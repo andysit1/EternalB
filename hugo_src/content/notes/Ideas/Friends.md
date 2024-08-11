@@ -2,6 +2,7 @@
 title = "Friends.md"
 date = "2024-08-08"
 +++
+
 ## Big Deal
 
 Friend's are really a weird subject in my opinions. Everyone makes a big deal about them. Especially parents or people that care about you. 

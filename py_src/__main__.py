@@ -24,7 +24,6 @@ title = "{page.lower()}"
 menu = "main"
 +++
 """
-    ic(front_matter)
     with open(os.path.join(vault_path, page, "_index.md"), "w+", encoding="utf-8") as f:
       f.write(front_matter)
 
@@ -52,12 +51,13 @@ date = "{date}"
 
 def process_md_info(text: str , title : str, date : str):
   md_string = generate_hugo_front_matter(title, date)
-  ic(md_string + text)
   return md_string + text
 
 
 def add_meta_data_to_obsidian_value():
   for root, dirs, files in os.walk(vault_path):
+    if root == vault_path:
+      generate_hugo_index(dirs)
 
     for file in files:
         if file.endswith(".md"):
@@ -65,22 +65,24 @@ def add_meta_data_to_obsidian_value():
                 content = f.read()
 
             #prob a better way but whatever
-            if content[0] == "+" or content[1] == "+" or content[2] == "+":
+            #handles empty files
+            if len(content) == 0:
                continue
+
+            #files that are not empty and no data
+            if len(content) > 0:
+              if content[0] == "+" or content[1] == "+" or content[2] == "+":
+                continue
+
 
             date = get_date(filepath=os.path.join(root, file))
             md_string = process_md_info(content, title=file, date=date)
-
-            ic(md_string)
 
             with open(os.path.join(root, file), "w", encoding="utf-8") as f:
                   f.write(md_string)
 
 def filter_index(file_contents: str, file_path: str) -> bool:
     # do something with the file path and contents
-
-    ic(file_path)
-
     if file_path != "_index.md":
         return True # copy file
     else:
@@ -105,5 +107,4 @@ def main():
 
 
 if __name__ == "__main__":
-  ic.enable()
   main()

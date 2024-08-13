@@ -1,36 +1,27 @@
 +++
 
-# This title is used as the og:title on Hugo's internal
-
-# opengraph structured data template on the home page.
-
-# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-
-title = "Andy's Super Cool Website"
+title = "andysit.com"
 
 +++
 
 ---
+# Oh hi you 👋
 
-# Hi!
+Welcome to my website. It's a pleasure to have you here :) My name is Andy Sit and I'm a 19 year old University Student studying computer science in Canada. Wanted to have a little space on the internet for myself. Feel free to read about myself and browse around.
 
-I am an 19 year old University Student studying computer science in Canada. Interested in having a place for my notes and being sick of using notepad just for my notes to disappear. Here is my solution! A site where you can find every *messy* thought, things I'm doing on a **daily**, and much more. 
+Thing's about me
+- 🤓 Coding
+    - At the moment I mainly develop in Python
+    - You can check my code at [github.com/andysit1](https://github.com/andysit1) 
+    - Enjoy exploring new technologies
+- ✨Interest
+    - I'm interested in **game development**, particularly the design
+    - **video processing** and **automation** are some key interests
+- 📖 Books
+    - I like to read a lot about **Productivity** and **learning strategies**
+    - Working on branching into different topics
 
-Feel free to read about myself and browse around.
-
-
----
-
-
-*note*
-
-This website is not a polished source of information. Nothing is edited or checked before upload. It's purely a place for me to share notes and ideas. 
-
-[My Blog](https://andyiterations.bearblog.dev/) - Yet to post
-
-
----
-
+___
 *credit*
 
 Check out these links! Without them it would have taken so much more time than needed.

@@ -1,4 +1,0 @@
-+++
-title = "hire"
-menu = "main"
-+++

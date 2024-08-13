@@ -6,17 +6,17 @@ date = "2024-08-10"
 #emo #happy #yap
 
 *Context*
-Ever ask someone what their goal is? They respond "Just to be happy". It happens a lot from my own mouth and many others.
+Ever ask someone what their goal is? They respond, "Just to be happy". It happens a lot from my own mouth and many others.
 
-Let's assume that their response is from a play of being honest and not a lazy response, just for the sake of not being contradictory. Been thinking how it's a bad response in general and there's a lot of room to really dig deep in this thought.
+Let's assume that their response is from a place of being honest and not a lazy response, just for the sake of not being contradictory. I've been thinking how it's a bad response in general and there's a lot of room to really dig deep into this thought.
 
-So, the other night I was talking with my friend Terrance at 2am - 3am, one of them conversations. Happiness came up in our conversation and something had made sense, this is my attempt to let it out.
+So, the other night I was talking with my friend Terrance at 2am - 3am, one of those conversations. Happiness came up in our conversation and something made sense; this is my attempt to let it out.
 
-Happiness, is totally a viable reason to want to live. Shit, it's a damn good one. I want to be happy and sure can walk down the street to find someone else with similar aspirations. It's just not a great response cause it's too broad. Like anything, having broad goals, broad ideas, or board view are not very useful. Lacks mission, reason, and does not make for a good action plan. 
+Happiness is totally a viable reason to want to live. It's a damn good one. I want to be happy and sure can walk down the street to find someone else with similar aspirations. It's just not a great response because it's too broad. Like anything, having broad goals, broad ideas, or broad views are not very useful. It lacks mission, reason, and does not make for a good action plan.
 
-If we want to be happy it's important to figure out what our definition of happy is. In my conversation with Terrance, I gave it some thought and came up with this.
+If we want to be happy, it's important to figure out what our definition of happy is. In my conversation with Terrance, I gave it some thought and came up with this:
 
-> "Happiness: The accumulation of positive emotion in ones daily life" I said.
+> "Happiness: The accumulation of positive emotion in one's daily life," I said.
 
 ___
 

@@ -14,6 +14,37 @@ def check_file_path() -> bool:
   will add _index.md file base on the folder name in your obsidian vault
   good so you can adjust the title whenever you want in obsidian
 """
+
+
+#updates the hugo_index on change
+def update_hugo_index():
+    for root, dirs, files in os.walk(vault_path):
+      for page in dirs:
+          if page == ".obsidian":
+            continue
+
+          v_index_path = os.path.join(vault_path, page, "_index.md")
+          h_index_path = os.path.join(hugo_content_path, page, "_index.md")
+
+          with open(v_index_path, "r", encoding="utf-8") as v_f:
+              v_content = v_f.read()
+
+          # Open the Hugo file in read-write mode
+          with open(h_index_path, "r+", encoding="utf-8") as h_f:
+              h_content = h_f.read()
+
+              # Check if contents differ
+              if v_content != h_content:
+
+                  h_f.seek(0)
+                  # Write the new content
+                  h_f.write(v_content)
+                  # Truncate the file to the new size
+                  h_f.truncate()
+      break #break on the first iter since we just want the first loop
+
+
+#given dirs will make hugo_index in value
 def generate_hugo_index(dirs : list):
   for page in dirs:
     if page == ".obsidian":
@@ -24,8 +55,11 @@ title = "{page.lower()}"
 menu = "main"
 +++
 """
-    with open(os.path.join(vault_path, page, "_index.md"), "w+", encoding="utf-8") as f:
-      f.write(front_matter)
+    #if vault has no index file then generate... stop issue of deleting index.md now in source
+    if not os.path.exists(os.path.join(vault_path, page, "_index.md")):
+      with open(os.path.join(vault_path, page, "_index.md"), "w+", encoding="utf-8") as f:
+        f.write(front_matter)
+
 
 # Handles the date files
 
@@ -53,9 +87,10 @@ def process_md_info(text: str , title : str, date : str):
   md_string = generate_hugo_front_matter(title, date)
   return md_string + text
 
-
 def add_meta_data_to_obsidian_value():
+
   for root, dirs, files in os.walk(vault_path):
+    #add _index.md files to files that do not have
     if root == vault_path:
       generate_hugo_index(dirs)
 
@@ -81,6 +116,7 @@ def add_meta_data_to_obsidian_value():
             with open(os.path.join(root, file), "w", encoding="utf-8") as f:
                   f.write(md_string)
 
+
 def filter_index(file_contents: str, file_path: str) -> bool:
     # do something with the file path and contents
     if file_path != "_index.md":
@@ -95,6 +131,7 @@ def main():
     raise FileExistsError("vault or hugo content file paths do not exist, check config.py filepaths")
 
   #go into vault and check for new files
+  #then addes all meta data to not files that do not have
   add_meta_data_to_obsidian_value()
 
   obsidian_to_hugo = ObsidianToHugo(
@@ -104,6 +141,9 @@ def main():
   )
 
   obsidian_to_hugo.run()
+  #at this point all folders should have an _index.md file now we update them we the new index files.
+
+  update_hugo_index()
 
 
 if __name__ == "__main__":

@@ -2,6 +2,10 @@
 title = "project"
 menu = "main"
 +++
+
+
+---
+
 ## 2024
 - Video Content Pipeline 
 - Project-F

@@ -6,7 +6,8 @@ menu = "main"
 
 ---
 *about*
-Memorable projects base on the time they were created. Some are wrong but it's close enough. Omitted projects that resemble basic tutorials and are finished to a point of content. So many projects in the grave yard that were started or never touched again. Outside of these projects below, I have a lot of folders attempting game engines in c, web dev, flutters apps, and e.t.c. Might post a screenshot :)
+
+Memorable projects base on the time they were created. Some are wrong but it's close enough. Omitted projects that resemble basic tutorials and are not finished to a point of satisfaction. So many projects in the grave yard that were started or never touched again. Outside of these projects below, I have a lot of folders attempting game engines in c, web dev, flutters apps, and e.t.c. Might post a screenshot :)
 ## 2024
 ---
 **Video Content Pipeline** [link](https://github.com/andysit1/Video-Content-Pipeline)  
@@ -22,9 +23,6 @@ In "A Shy Worm," you navigate underwater environments filled with various creatu
 ---
 **Rust Steam Bot** [link](https://github.com/andysit1/RustSteamBot)  
 This was a freelance project I worked on over the summer after my first year of university. It’s a coin-flipping service similar to rustypot.com for Rust users. It uses FastAPI to host games and includes an API I built to shuffle IP addresses via a self-made proxy. I learned a lot from this project, particularly about network security, hosting, Docker, and how much I still have to learn about coding.
-
-**LectureSpeeder** [link](https://github.com/andysit1/LectureSpeeder/tree/main)  
-A weekend project built to speed up lectures and format them into a PDF. It was really cool at the time since OpenAI tools were becoming popular. Around this time, everyone started making variations of these projects.
 
 ## Before 2022
 ---

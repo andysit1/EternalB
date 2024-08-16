@@ -149,8 +149,9 @@ def main():
 
 
 if __name__ == "__main__":
-  schedule.every().day.at("23:30").do(main)
+   main()
+  # schedule.every().day.at("23:30").do(main)
 
-  while True:
-     schedule.run_pending()
-     time.sleep(1)
+  # while True:
+  #    schedule.run_pending()
+  #    time.sleep(1)

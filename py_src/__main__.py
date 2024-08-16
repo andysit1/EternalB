@@ -1,6 +1,8 @@
 from obsidian_to_hugo import ObsidianToHugo
 from py_src.config import vault_path, hugo_content_path
 import os
+import schedule
+import time
 from icecream import ic
 
 
@@ -147,4 +149,8 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+  schedule.every().day.at("23:30").do(main)
+
+  while True:
+     schedule.run_pending()
+     time.sleep(1)

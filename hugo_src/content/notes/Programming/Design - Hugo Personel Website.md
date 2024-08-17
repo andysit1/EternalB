@@ -14,6 +14,13 @@ date = "2024-08-09"
 	- Don't like how it's so focused blogging
 		- More Person Focused Required
 - https://janraasch.github.io/hugo-bearblog/
+
+### Hugo Doc Snipets
+Useful for images and video
+- https://gohugo.io/content-management/shortcodes/
+
+
+
 ## Deploy
 
 How to deploy: https://gohugo.io/hosting-and-deployment/hosting-on-github/

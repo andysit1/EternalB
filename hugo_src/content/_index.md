@@ -5,9 +5,11 @@ title = "andysit.com"
 +++
 
 ---
-# Oh hi you 👋
+# Oh hi you👋
 
-Welcome to my website. It's a pleasure to have you here :) My name is Andy Sit and I'm a 19 year old University Student studying computer science in Canada. Wanted to have a little space on the internet for myself. Feel free to read about myself and browse around.
+**who am I?** 
+
+I'm a 19 year old university student studying computer science in Canada. Wanted to have a little space on the internet for myself. Feel free to read about myself and browse around.
 
 Thing's about me
 - 🤓 Coding
@@ -18,7 +20,7 @@ Thing's about me
     - I'm interested in **game development**, particularly the design
     - **video processing** and **automation** are some key interests
 - 📖 Books
-    - I like to read a lot about **Productivity** and **learning strategies**
+    - I like to read a lot about **productivity**
     - Working on branching into different topics
 
 ___

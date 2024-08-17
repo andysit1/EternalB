@@ -5,6 +5,22 @@ import schedule
 import time
 from icecream import ic
 
+import subprocess
+
+def run_git_command(command):
+    result = subprocess.run(command, shell=True, text=True, capture_output=True)
+    print(result.stdout)
+    if result.returncode != 0:
+        print(f"Error: {result.stderr}")
+
+def push():
+    run_git_command("git add .")
+    run_git_command('git commit -m "Your commit message"')
+    run_git_command("git push")
+
+
+
+
 
 def check_file_path() -> bool:
   if os.path.exists(vault_path) and os.path.exists(hugo_content_path):
@@ -146,7 +162,8 @@ def main():
   #at this point all folders should have an _index.md file now we update them we the new index files.
 
   update_hugo_index()
-
+  
+  push()
 
 if __name__ == "__main__":
    main()

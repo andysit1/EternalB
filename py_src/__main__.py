@@ -15,7 +15,7 @@ def run_git_command(command):
 
 def push():
     run_git_command("git add .")
-    run_git_command('git commit -m "Your commit message"')
+    run_git_command('git commit -m "auto update"')
     run_git_command("git push")
 
 

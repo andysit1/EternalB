@@ -9,7 +9,6 @@ title = "andysit.com"
 
 **who am I?** 
 
-Execute
 I'm a 19 year old university student studying computer science in Canada. Wanted to have a little space on the internet for myself. Feel free to read about myself and browse around.
 
 Thing's about me

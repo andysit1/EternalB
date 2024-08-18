@@ -41,6 +41,11 @@ def update_hugo_index():
           if page == ".obsidian":
             continue
 
+
+          if page == "notes":
+            continue
+
+
           v_index_path = os.path.join(vault_path, page, "_index.md")
           h_index_path = os.path.join(hugo_content_path, page, "_index.md")
 
@@ -66,6 +71,9 @@ def update_hugo_index():
 def generate_hugo_index(dirs : list):
   for page in dirs:
     if page == ".obsidian":
+       continue
+
+    if page == "notes":
        continue
 
     front_matter = f"""+++

@@ -162,7 +162,7 @@ def main():
   #at this point all folders should have an _index.md file now we update them we the new index files.
 
   update_hugo_index()
-  
+
   push()
 
 if __name__ == "__main__":

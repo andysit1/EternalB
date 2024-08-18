@@ -17,7 +17,7 @@ Thing's about me
     - You can check my code at [github.com/andysit1](https://github.com/andysit1) 
     - Enjoy exploring new technologies
 - ✨Interest
-    - I'm interested in **game development**, particularly the design
+    - I'm interested in **game development**, particularly the implementation
     - **video processing** and **automation** are some key interests
 - 📖 Books
     - I like to read a lot about **productivity**

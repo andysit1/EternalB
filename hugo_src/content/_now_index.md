@@ -5,13 +5,8 @@ menu = "main"
 
 ---
 
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2F) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2Fonline)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app&cacheSeconds=5) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2Fonline&cacheSeconds=5)
 
-
-Execute
-
-
----
 
 😴Nothing big happened recently. Working on projects that seem interesting and hanging out with friends
 

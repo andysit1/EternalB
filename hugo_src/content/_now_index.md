@@ -5,7 +5,11 @@ menu = "main"
 
 ---
 
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2F) 
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2F) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fe694-76-70-116-120.ngrok-free.app%2Fonline)
+
+
+Execute
+
 
 ---
 

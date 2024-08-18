@@ -45,7 +45,6 @@ def update_hugo_index():
           if page == "notes":
             continue
 
-
           v_index_path = os.path.join(vault_path, page, "_index.md")
           h_index_path = os.path.join(hugo_content_path, page, "_index.md")
 

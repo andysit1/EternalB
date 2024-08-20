@@ -13,4 +13,5 @@ textual-pygame probably needs to based on how textual works and it's structure.
 - how can we use buttons and stuff with it
 - what if people use pygame
 
-config
+
+We can just follow an opensource repo. 

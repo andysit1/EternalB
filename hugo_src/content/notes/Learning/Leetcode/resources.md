@@ -11,6 +11,10 @@ Grind 75
 Patterns
 - https://blog.algomaster.io/p/15-leetcode-patterns
 
+
+Repos
+- https://github.com/ashishps1/awesome-leetcode-resources
+- 
 AI gen stuff
 
 Certainly! Here are some effective strategies for tackling LeetCode problems, based on the information gathered:

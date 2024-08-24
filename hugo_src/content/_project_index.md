@@ -13,7 +13,7 @@ Memorable projects base on the time they were created. Some are wrong but it's c
 **Video Content Pipeline** [link](https://github.com/andysit1/Video-Content-Pipeline)  
 The goal is to simplify video editing and potentially automate the entire process of clipping large videos on Twitch. Each clip is evaluated and assigned points based on various attributes derived from OpenCV methods. This point system helps weigh clips and can be adjusted in the future according to the specific needs of the video.
 
-**Video Drill** [link](https://github.com/andysit1/video-drill)
+**Video Drill** [link](https://github.com/andysit1/video-drill)  
 When I was developing video content pipeline it felt like a never ending loop of trying to find the right position for a clip. Realized this was a bad idea since it's impossible to have such a perfect parse on a large videos. Instead I decide to invest time into VideoDrill a terminal application that will trim the video clips and encode them again. Allowing my human decisions to decide the clip, which is always better than computer decisions.
 
 **Project-F** [link](https://github.com/andysit1/Project-F)  

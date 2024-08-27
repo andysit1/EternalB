@@ -30,7 +30,7 @@ date = "2024-08-26"
 
 5. **Setting Up Audio:**
    - Inputs are the sources of audio, while outputs are what you send out. In vMix, you have three main outputs. For example, you might send music through the master output, so the casters don't hear it. Microphone audio is routed through a specific bus, and game audio from observers can be routed to both the master and another bus.
-              ![Pasted image 20240826221357.png]({{< ref "Pasted image 20240826221357.png" >}})
+              
    - You have several audio buses (main channels) to control the volume levels of different audio sources. The main buses allow you to adjust the volume for various audio inputs, such as microphones and music. 
 
    - "For music, we're sending it only through the master bus so the casters don’t hear it. The microphone is routed through Bus A, and game audio from each observer is routed through both the master and Bus A. All caster calls are sent only through the master bus."

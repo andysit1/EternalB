@@ -5,7 +5,7 @@ title = "andysit.com"
 +++
 
 ---
-# Oh hi you👋
+# Hello👋
 
 **who am I?** 
 

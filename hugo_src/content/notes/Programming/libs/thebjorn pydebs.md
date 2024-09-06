@@ -13,7 +13,16 @@ packages aka the class Source can be too far from out entrypoint.
 
 dot.py -> is used to run commands with Graphviz dot command
 
-
+### Conditions
+- Hotspots
+	- conditions
+		- number lines of code
+		- flow of logic
+		- number of times side file is imported
+		- bargraphs?
+	- we can do a ascii parser
+	- change pydeps for imports
+- 
 
 ### Context
 

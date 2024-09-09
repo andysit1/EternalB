@@ -40,9 +40,15 @@ ADDITIONAL EXPERIENCE
 * Leads the Production department to host live streams of esports games throughout the school year  
 * Collaborates with multiple departments such as events, and marketing, in order to run streams smoothly 
 
+**Varsity Fencer**  | University of Western Ontario        
+- A student-athlete that dedicates 10 hours of the week to training and competitions outside of school
+* Developed strong communication skills with team members through moments in tournaments
+
 **Preparhub**  | Sales, *Startup*                                                                
 * Worked at a social enterprise to help families going through tough breakups and traumatic situations  
-* Collaborates with multiple departments such as events, and marketing, to run streams smoothly 
+* Created scripts in Python for image sizing, sales calls to professionals in the industry and developed database
+
+
 
 TECHNICAL SKILLS  
 ---
